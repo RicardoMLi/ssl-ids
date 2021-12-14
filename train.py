@@ -73,7 +73,6 @@ if __name__ == '__main__':
     plt.xlabel('Training steps')
     plt.ylabel('Training loss')
     plt.plot(mse_list, color='blue', linestyle='-', label='MSE loss')
-    plt.legend()
     plt.show()
 
     
