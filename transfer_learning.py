@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_curve, auc
 from torch.utils.data import DataLoader
-from models import botnet, Classfication
+from models import botnet, Classfication, BoTNet_with_classifier, BoTNetBottleneck
 from intrusion_detection_datasets import NSL_KDDDataset, KDD_CUPDataset, CIC_IDS2017Dataset, ISCX_IDS2012Dataset, CIDDS_001Dataset
 
 
