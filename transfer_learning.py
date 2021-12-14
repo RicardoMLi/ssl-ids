@@ -6,7 +6,6 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 from torch.utils.data import DataLoader
 from models import botnet, Classfication
 from intrusion_detection_datasets import NSL_KDDDataset, KDD_CUPDataset, CIC_IDS2017Dataset, ISCX_IDS2012Dataset, CIDDS_001Dataset
-from test import BoTNet_with_classifier, BoTNetBottleneck
 
 
 epochs = 20
