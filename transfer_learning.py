@@ -82,7 +82,7 @@ for epoch in range(epochs):
 
 
 
-测试数据集
+# 测试数据集
 num_correct = 0
 num_samples = 0
 num_correct_with_classifier = 0
